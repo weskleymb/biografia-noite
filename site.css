@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+#paragrafo1 {
+	font-size: 24px;
+}
+
+.fundo {
+	background-color: pink;
+	color: gold;
+	text-align: center;
+}
+
+.borda-azul {
+	border: 1px solid;
+	border-color: blue;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+}
+
+#foto {
+	width: 150px;
+	height: 105px;
+	border-radius: 50%;
+}

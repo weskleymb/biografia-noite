@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		table, th, td {
+			border-style: solid;
+			border-width: 1px;
+			border-color: black;
+			border-collapse: collapse;
+		}
+
+		table {
+			margin: auto;
+			width: 70%;
+			font-family: 'calibri', serif;
+			font-size: 12pt;
+		}
+
+		.titulo {
+			background-color: rgb(79, 129, 189);
+			color: rgb(255, 255, 255);
+			font-weight: bold;
+			text-align: center;
+		}
+
+		.linha-impar {
+			background-color: rgb(208, 216, 232);
+		}
+
+		.linha-par {
+			background-color: rgb(233, 237, 244);
+		}
+
+		.tam {
+			width: 50px;
+			height: 10px;
+		}
+
+		.gol {
+			width: 20px;
+			height: 10px;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr class="titulo">
+			<th colspan="2">Voos do Aeroporto de Natal</th>
+		</tr>
+		<tr class="linha-impar">
+			<td rowspan="3">Natal - Salvador</td>
+			<td>2 vezes ao dia</td>
+		</tr>
+		<tr class="linha-par">
+			<td>Início: 1990</td>
+		</tr>
+		<tr class="linha-impar">
+			<td>
+				<img src="imagens/tam.png" class="tam">&nbsp;&nbsp;
+				<img src="imagens/gol.png" class="gol">
+			</td>
+		</tr>
+		<tr class="linha-par">
+			<td rowspan="3">Natal - São Paulo</td>
+			<td>5 vezes ao dia</td>
+		</tr>
+		<tr class="linha-impar">
+			<td>Início: 1981</td>
+		</tr>
+		<tr class="linha-par">
+			<td>
+				<img src="imagens/tam.png" class="tam">
+				<img src="imagens/gol.png" class="gol">
+				azul
+			</td>
+		</tr>
+		<tr class="linha-impar">
+			<td rowspan="3">Natal - Lisboa</td>
+			<td>3 vezes por semana</td>
+		</tr>
+		<tr class="linha-par">
+			<td>Início: 2003</td>
+		</tr>
+		<tr class="linha-impar">
+			<td>AVIANCA e TAP</td>
+		</tr>
+	</table>
+</body>
+</html>
